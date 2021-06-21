@@ -14,6 +14,6 @@ My goal in this notebook was **not** to achieve high accuracy (as I could do tha
 
 Using this model I achieved 87% accuracy and 0.26 loss on the validation set, and 0.32 loss on the test set.
 
-Please find the notebook [cats-vs-dogs-redux.ipynb](https://github.com/masalha-alaa/dogs-vs-cats-pytorch/blob/master/cats-vs-dogs-redux.ipynb) in the root directory, in which you'll find a complete walkthrough of this work, or head over to my [Kaggle profile](https://www.kaggle.com/alaamasalha/cats-vs-dogs-redux) where you'll find the same notebook and see some of my other projects.
+Please find the notebook [cats-vs-dogs-redux.ipynb](https://github.com/masalha-alaa/dogs-vs-cats-pytorch/blob/master/cats-vs-dogs-redux.ipynb) in the root directory (refresh if it doesn't load), in which you'll find a complete walkthrough of this work, or head over to my [Kaggle profile](https://www.kaggle.com/alaamasalha/cats-vs-dogs-redux) where you'll find the same notebook and see some of my other projects.
 
 ![image](https://user-images.githubusercontent.com/78589884/122798911-cc226e00-d2c9-11eb-9e00-d793860daee8.png)
