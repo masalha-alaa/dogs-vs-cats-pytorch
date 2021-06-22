@@ -10,7 +10,7 @@ where
 * ŷ<sub>i</sub> is **the predicted probability of the image being a dog**.
 * y<sub>i</sub> is 1 if the image is a dog, 0 if cat.
 
-My goal in this notebook was **not** to achieve high accuracy (as I could do that simply by using a pretrained model from PyTorch), but to experiment with building a deep neural network in PyTorch (deeper than the one I built in [my MNIST notebook](https://github.com/masalha-alaa/mnist-pytorch)), as well as to work with a database not preloaded by PyTorch (unlike MNIST).
+My goal in this notebook was **not** to achieve a high accuracy (as I could do that simply by using a pretrained model from PyTorch), but to experiment with CNNs and building a deep neural network in PyTorch, as well as to work with a database not preloaded by PyTorch (unlike [my work with MNIST](https://github.com/masalha-alaa/mnist-pytorch)).
 
 Using this model I achieved 87% accuracy and 0.26 loss on the validation set, and 0.32 loss on the test set.
 
