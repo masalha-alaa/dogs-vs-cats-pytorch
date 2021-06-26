@@ -21,8 +21,7 @@ The model's network mainly consists of 3 convolution layers and 2 fully connnect
 ---
 
 Notes:
-After implementing this network, I have read the [AlexNet paper](https://www.cs.toronto.edu/~hinton/absps/imagenet.pdf), and in hindsight I would make a few changes to my network:
+After implementing this network, I have read the [AlexNet paper](https://www.cs.toronto.edu/~hinton/absps/imagenet.pdf) and [implemented it](https://github.com/masalha-alaa/alexnet-pytorch), and I learned a few things that in hindsight I would change in my network:
 * Aspect ratio should be maintained when resizing the images (i.e. resize such that the shorter edge = `X`, and then crop the center).
-* Input normalization should be applied only on the training set. That might be the rason why my accuracy and loss charts strongly fluctuated when I normalized the validation and test sets in addition to the training set. However, I ended up disabling input normalization altogether because of these fluctuations.
 * Larger (more broad) fully connected layers at the end (would take a longer time to train, but seems to be worthy).
 * Data Augmentation: Being very beneficial and easy to implement in PyTorch, I should have definitely used this tool for the sake of generalization.
