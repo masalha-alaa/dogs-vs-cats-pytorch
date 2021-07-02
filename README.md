@@ -25,3 +25,4 @@ After implementing this network, I have read the [AlexNet paper](https://www.cs.
 * Aspect ratio should be maintained when resizing the images (i.e. resize such that the shorter edge = `X`, and then crop the center).
 * Larger (more broad) fully connected layers at the end (would take a longer time to train, but seems to be worthy).
 * Data Augmentation: Being very beneficial and easy to implement in PyTorch, I should have definitely used this tool for the sake of generalization.
+* Data normalization: Should've normalized the data by the images mean and std.
