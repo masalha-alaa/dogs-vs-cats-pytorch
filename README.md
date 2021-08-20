@@ -1,6 +1,6 @@
 # Dogs vs. Cats Classification using CNN
 
-In this Kaggle competition, the mission is to classify images of dogs and cats.
+In this [Kaggle competition](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition), the mission is to classify images of dogs and cats.
 The evaluation metric is the log loss function:
 
 ![image](https://user-images.githubusercontent.com/78589884/122687982-32ec4c80-d222-11eb-838e-61e7c7bc357f.png)
